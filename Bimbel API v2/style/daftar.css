@@ -1,0 +1,111 @@
+:root {
+    --background: #77b901;
+    --secondary: #D9B600;
+  }
+  * {
+    font-family: "Poppins", sans-serif;
+  }
+  .back {
+    background-color: #f8ffeb;
+    height: 100vh;
+  }
+  .navbar {
+    z-index: 9999;
+    background-color: bisque;
+  }
+  .navbar .navbar-brand {
+    font-family: "Peralta", cursive;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+  }
+  .navbar-brand span {
+    color: var(--background);
+    font-family: "Peralta", cursive;
+  }
+  .navbar-nav {
+    font-size: 1rem;
+    font-weight: 400;
+  }
+
+  .btn-navbar {
+    padding: 0.5rem 2rem;
+    font-size: 1rem;
+    color: var(--text);
+    background-color: var(--background);
+    border-style: none;
+    border-radius: 10px;
+    color: #fff;
+  }
+  /* pendaftaran section */
+  .daftar{
+    padding: 8rem;
+  }
+  .daftar h1{
+    font-weight: 600;
+    padding-bottom: 3rem;
+  }
+  .daftar h1 span{
+    color: var(--background);
+  }
+  .daftar .container .backDaftar{
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    padding: 3rem;
+  }
+  .daftar label{
+    font-size: 1.08rem;
+    font-weight: 500;
+  }
+  .daftar input{
+    background: #ffffff;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  .daftar .imgDaftar{
+    width: 23rem;
+    background: url(.jpg), #D9D9D9;
+    border: 3px solid #77B901;
+    border-radius: 10px;
+    
+  }
+  .tDaftar{
+    font-size: 1.2rem;
+    font-weight: 600;
+  }
+  .daftar h3{
+    font-size: 2rem;
+    font-weight: 600;
+    padding-top: 3rem;
+  }
+  .daftar p{
+    color: #797C7A;
+    font-weight: 500;
+    font-size: 1rem;
+  }
+  .daftar .btnDaftar{
+    background-color: var(--background);
+    color: #fff;
+    text-decoration: none;
+    width: 30%;
+    height: 4rem;
+    border-radius: 0.5rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+
+  }
+  /* media queries */
+  @media (max-width: 991.98px) {
+    html {
+      font-size: 72%;
+    }
+  }
+  @media (max-width: 767.98px) {
+    html {
+      font-size: 62%;
+    }
+  }
+  @media (max-width: 576px) {
+  
+  }

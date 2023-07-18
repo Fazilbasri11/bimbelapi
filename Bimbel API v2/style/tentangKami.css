@@ -1,0 +1,152 @@
+:root {
+  --background: #77b901;
+  --secondary: #d9b600;
+}
+* {
+  font-family: "Poppins", sans-serif;
+}
+.back {
+  background-color: #f8ffeb;
+  padding: 8rem;
+  background: url(../img/tentangKami/tentangKami2.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.navbar {
+  z-index: 9999;
+  background-color: bisque;
+}
+.navbar .navbar-brand {
+  font-family: "Peralta", cursive;
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  font-size: 1.2rem;
+}
+.navbar-brand span {
+  color: var(--background);
+  font-family: "Peralta", cursive;
+}
+.navbar-nav {
+  font-size: 1rem;
+  font-weight: 400;
+}
+.btn-navbar {
+  padding: 0.5rem 2rem;
+  font-size: 1rem;
+  color: var(--text);
+  background-color: var(--background);
+  border-style: none;
+  border-radius: 10px;
+  color: #fff;
+}
+.nav-link,
+.navbar-brand {
+  color: black;
+}
+/* hero */
+.hero img {
+  width: 13rem;
+}
+.hero h1 {
+  font-size: 2.2rem;
+}
+.hero .container h1 span {
+  color: var(--background);
+}
+.hero p {
+  text-align: justify;
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+/* visi misi */
+.visi .container {
+  background: url(../img/cabang/back.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 3rem;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.visi h2 {
+  font-size: 3rem;
+}
+.visi p,
+.visi li {
+  font-size: 1.3rem;
+}
+.visi .container .bot p {
+  text-align: justify;
+}
+.visi .container .bot p a {
+  color: var(--background);
+  font-weight: 600;
+}
+/* sejarah */
+.sejarah {
+  text-align: justify;
+}
+.sejarah h2 {
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+/* tim */
+.tim {
+  padding: 5rem 0;
+  box-sizing: border-box;
+}
+.tim h2 {
+  font-size: 3rem;
+}
+.tim img {
+  width: 100%;
+}
+/* lord */
+.pemimpin {
+  padding: 5rem 0;
+}
+.pemimpin .card {
+  box-sizing: border-box;
+  overflow: hidden;
+  background-color: transparent;
+  border-style: none;
+}
+.pemimpin .card p {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-top: 1rem;
+  color: #868686;
+}
+.pemimpin .card img {
+  width: 100%;
+}
+.pemimpin h3 {
+  font-size: 1.5rem;
+  color: #ffffff;
+  font-weight: 700;
+}
+.pemimpin a {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: var(--background);
+}
+.pemimpin a:hover {
+  color: #d9b600;
+}
+.visi img {
+  width: 15rem;
+}
+
+/* media queries */
+@media (max-width: 991.98px) {
+  html {
+    font-size: 72%;
+  }
+}
+@media (max-width: 767.98px) {
+  html {
+    font-size: 62%;
+  }
+}
+@media (max-width: 576px) {
+}

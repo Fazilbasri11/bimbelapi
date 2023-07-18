@@ -1,0 +1,86 @@
+:root {
+  --background: #77b901;
+  --secondary: #d9b600;
+}
+* {
+  font-family: "Poppins", sans-serif;
+}
+.back {
+  background-color: #f8ffeb;
+  padding: 8rem;
+  background: url(../img/tentangKami/kursus.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 5000px;
+}
+.navbar {
+  z-index: 9999;
+  background-color: bisque;
+}
+.navbar .navbar-brand {
+  font-family: "Peralta", cursive;
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  font-size: 1.2rem;
+}
+.navbar-brand span {
+  color: var(--background);
+  font-family: "Peralta", cursive;
+}
+.navbar-nav {
+  font-size: 1rem;
+  font-weight: 400;
+}
+.btn-navbar {
+  padding: 0.5rem 2rem;
+  font-size: 1rem;
+  color: var(--text);
+  background-color: var(--background);
+  border-style: none;
+  border-radius: 10px;
+  color: #fff;
+}
+.nav-link,
+.navbar-brand {
+  color: black;
+}
+/* pengajar kami */
+.pengajar h1 {
+  padding: 1rem;
+  background: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.cardTop {
+  background-color: #fff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  margin: 0 1rem;
+}
+.cardPengajar {
+  padding: 2rem;
+}
+.catatan {
+  background-color: #e3e3e3;
+  padding: 1rem;
+  border: 2px solid #000;
+  text-align: justify;
+  border-radius: 10px;
+}
+.cardPengajar img {
+  width: 12rem;
+}
+/* media queries */
+@media (max-width: 991.98px) {
+  html {
+    font-size: 72%;
+  }
+}
+@media (max-width: 767.98px) {
+  html {
+    font-size: 62%;
+  }
+}
+@media (max-width: 576px) {
+}

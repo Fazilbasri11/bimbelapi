@@ -1,0 +1,155 @@
+:root {
+  --background: #77b901;
+  --secondary: #d9b600;
+}
+* {
+  font-family: "Poppins", sans-serif;
+}
+.back {
+  background-color: #f8ffeb;
+  padding: 8rem;
+  background: url(../img/tentangKami/kursus.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.navbar {
+  z-index: 9999;
+  background-color: bisque;
+}
+.navbar .navbar-brand {
+  font-family: "Peralta", cursive;
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  font-size: 1.2rem;
+}
+.navbar-brand span {
+  color: var(--background);
+  font-family: "Peralta", cursive;
+}
+.navbar-nav {
+  font-size: 1rem;
+  font-weight: 400;
+}
+.btn-navbar {
+  padding: 0.5rem 2rem;
+  font-size: 1rem;
+  color: var(--text);
+  background-color: var(--background);
+  border-style: none;
+  border-radius: 10px;
+  color: #fff;
+}
+.nav-link,
+.navbar-brand {
+  color: black;
+}
+/* Kursus kami */
+.kursus h1 {
+  padding: 1rem;
+  background: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.kursus .card-kursus {
+  width: 100%;
+  background-color: #ffffff;
+  padding: 2rem 1rem;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  overflow: hidden;
+}
+.kursus .card-kursus img {
+  width: 24rem;
+  height: 14rem;
+  margin-top: 0.5rem;
+}
+.kursus .card-kursus h3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+.kursus p {
+  text-align: center;
+}
+.kursus .btn-card {
+  font-size: 1rem;
+  font-weight: 700;
+  padding: 0.6rem 1rem;
+  border-style: none;
+  color: #000;
+  background-color: transparent;
+  padding: 0;
+  color: #77b901;
+}
+.kursus .btn-kursus {
+  padding: 0.6rem 2rem;
+  background-color: var(--background);
+  text-decoration: none;
+}
+.kursus a button {
+  background-color: transparent;
+  border-style: none;
+  font-weight: 600;
+  font-size: 1rem;
+  color: #fff;
+}
+#kursus1 .modalkursus img,
+#kursus2 .modalkursus img,
+#kursus3 .modalkursus img,
+#kursus4 .modalkursus img,
+#kursus5 .modalkursus img,
+#kursus7 .modalkursus img,
+#kursus8 .modalkursus img,
+#kursus9 .modalkursus img {
+  width: 20rem;
+  height: 10rem;
+  border-radius: 10px;
+}
+#kursus1 .modalkursus .img-modal,
+#kursus2 .modalkursus .img-modal,
+#kursus3 .modalkursus .img-modal,
+#kursus4 .modalkursus .img-modal,
+#kursus5 .modalkursus .img-modal,
+#kursus6 .modalkursus .img-modal,
+#kursus7 .modalkursus .img-modal,
+#kursus8 .modalkursus .img-modal,
+#kursus9 .modalkursus .img-modal {
+  padding: 2rem 0;
+}
+#kursus1 .modalkursus .text-modal h3,
+#kursus2 .modalkursus .text-modal h3,
+#kursus3 .modalkursus .text-modal h3,
+#kursus4 .modalkursus .text-modal h3,
+#kursus5 .modalkursus .text-modal h3,
+#kursus6 .modalkursus .text-modal h3,
+#kursus7 .modalkursus .text-modal h3,
+#kursus8 .modalkursus .text-modal h3,
+#kursus9 .modalkursus .text-modal h3 {
+  font-size: 2rem;
+  line-height: 4rem;
+  font-weight: 600;
+}
+#kursus1 .modalkursus .text-modal p,
+#kursus2 .modalkursus .text-modal p,
+#kursus3 .modalkursus .text-modal p,
+#kursus4 .modalkursus .text-modal p,
+#kursus5 .modalkursus .text-modal p,
+#kursus6 .modalkursus .text-modal p,
+#kursus7 .modalkursus .text-modal p,
+#kursus8 .modalkursus .text-modal p,
+#kursus9 .modalkursus .text-modal p {
+  text-align: justify;
+}
+/* media queries */
+@media (max-width: 991.98px) {
+  html {
+    font-size: 72%;
+  }
+}
+@media (max-width: 767.98px) {
+  html {
+    font-size: 62%;
+  }
+}
+@media (max-width: 576px) {
+}

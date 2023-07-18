@@ -1,0 +1,692 @@
+:root {
+  --background: #77b901;
+  --secondary: #d9b600;
+}
+* {
+  font-family: "Poppins", sans-serif;
+}
+.back {
+  background-color: #f8ffeb;
+}
+.navbar {
+  z-index: 9999;
+  background-color: bisque;
+}
+.navbar .navbar-brand {
+  font-family: "Peralta", cursive;
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  font-size: 1.2rem;
+}
+.navbar-brand span {
+  color: var(--background);
+  font-family: "Peralta", cursive;
+}
+.navbar-nav {
+  font-size: 1rem;
+  font-weight: 400;
+}
+.btn-navbar {
+  padding: 0.5rem 2rem;
+  font-size: 1rem;
+  color: var(--text);
+  background-color: var(--background);
+  border-style: none;
+  border-radius: 10px;
+  color: #fff;
+}
+/* hero section */
+.hero {
+  background: url(../img/Hero\ section.png);
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+}
+.hero .text-hero {
+  align-items: center;
+  margin-top: 15rem;
+  margin-bottom: 3rem;
+}
+.hero .row {
+  padding-top: 6rem;
+}
+.text-hero h1 {
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+.text-hero h1 span {
+  color: var(--background);
+}
+.text-hero p {
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: var(--textSecond);
+}
+.text-hero button {
+  padding: 0.5rem 2rem;
+  background-color: var(--background);
+  text-decoration: none;
+  color: #f8ffeb;
+  border-radius: 0.8rem;
+  font-size: 1.2rem;
+}
+.text-hero .btn-bot {
+  color: #000000;
+  background: transparent;
+  margin-left: 1rem;
+}
+.btn-bot span {
+  color: var(--background);
+}
+.btn-hero a {
+  color: #000000;
+  font-weight: 600;
+}
+.text-hero .btn-bot:hover {
+  background-color: var(--background);
+  color: #f8ffeb;
+}
+.img-hero {
+  margin-top: 7rem;
+}
+.img-hero img {
+  width: 13rem;
+}
+.modal-color {
+  border-style: none;
+}
+.modal-body {
+  overflow: hidden;
+}
+.hero2 {
+  background: url(../img/hero2/hero-2.png);
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+}
+.hero2 .row {
+  padding-top: 6rem;
+}
+.hero2 .text-hero {
+  margin-top: 15rem;
+}
+.hero2 .text-hero h1 {
+  color: #3f3f3f;
+  font-weight: 500;
+  font-size: 1.8rem;
+  line-height: 2.4rem;
+  width: 100%;
+}
+.hero2 .text-hero span {
+  font-weight: 600;
+}
+.hero2 .img-hero {
+  margin: 14rem auto;
+}
+.hero2 .img-hero2 img {
+  width: 25rem;
+}
+.hero2 .btn-hero a {
+  color: #000000;
+}
+/* visi misi section */
+.visi {
+  background: url(../img/visi-misi/v2.png);
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+}
+.visi .container {
+  padding-top: 17rem;
+}
+.misi h2 {
+  font-size: 2.3rem;
+  font-weight: 600;
+}
+.misi h2 span {
+  color: #d9b600;
+}
+.nice-jobs h3 {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #3f3f3f;
+}
+.nice-jobs p,
+.nice-jobs ul li {
+  font-weight: 500;
+}
+.nice-jobs img {
+  width: 10rem;
+}
+/* manfaat section */
+.manfaat {
+  padding: 5rem 0;
+}
+.manfaat .text-manfaat {
+  max-width: 500px;
+}
+.manfaat .text-manfaat h4 {
+  font-size: 1.7rem;
+  font-weight: 500;
+}
+.manfaat .text-manfaat h3 {
+  font-size: 2rem;
+  font-weight: 500;
+}
+.manfaat .text-manfaat h3 span {
+  color: var(--secondary);
+  font-weight: 700;
+}
+.manfaat .text-manfaat h2 {
+  font-size: 2.7rem;
+  font-weight: 600;
+}
+.manfaat .text-manfaat h2 span {
+  color: var(--background);
+  font-weight: 700;
+}
+.text-manfaat img {
+  width: 13rem;
+  display: none;
+}
+.manfaat .card-manfaat {
+  padding: 1rem;
+  border-style: none;
+  background: rgba(255, 255, 255, 0.3);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  background-color: #ffff;
+  margin-top: 4rem;
+  height: 20rem;
+}
+.manfaat .card-manfaat:hover {
+  background: rgba(255, 239, 139, 0.3);
+}
+.card-manfaat img {
+  width: 8rem;
+}
+.card-manfaat .card-body h4 {
+  color: #000000;
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+.card-manfaat .card-body p {
+  font-size: 1.1rem;
+  color: #8f8f8f;
+  font-weight: 300;
+}
+/* tentang kami */
+.tentang {
+  padding: 9rem 0;
+  background: url(../img/tentang-kami/back.png);
+  background-position: center;
+  background-size: cover;
+}
+
+.tentang .img-tentang-guru,
+.tentang .img-tentang-child {
+  border-radius: 10px;
+  border: 5px solid #c7a702;
+  filter: drop-shadow(0px 7px 24px rgba(217, 182, 0, 0.42));
+}
+.tentang .img-tentang-child {
+  position: absolute;
+  bottom: 0;
+  right: 20px;
+  width: 20rem;
+}
+.tentang .img-tentang-guru {
+  width: 23rem;
+}
+.tentang-flex {
+  padding-top: 2rem;
+}
+.tentang .tentang-line {
+  width: 13rem;
+}
+.tentang h2 {
+  color: var(--secondary);
+  font-weight: 700;
+}
+.tentang h1 {
+  font-weight: 600;
+}
+.tentang .berbakat {
+  color: var(--background);
+}
+.tentang .berkualifikasi {
+  color: var(--secondary);
+}
+.tentang .text-tentang {
+  text-align: justify;
+  color: #979797;
+  font-weight: 400;
+  font-size: 1.1rem;
+  margin-bottom: 3rem;
+}
+.tentang a {
+  padding: 0.7rem 2rem;
+  background-color: var(--background);
+  font-size: 1.2rem;
+  color: #ffff;
+  text-decoration: none;
+  border-radius: 10px;
+}
+/* cabang */
+.cabang {
+  padding: 5rem 0;
+}
+.cabang .card h5 {
+  font-size: 1.5rem;
+}
+.cabang .card a {
+  font-size: 2.5rem;
+  margin: 0 1rem;
+  color: #000000;
+  font-weight: 700;
+  text-decoration: none;
+}
+.cabang .card a:hover {
+  color: var(--background);
+}
+.cabang .card .bot a {
+  font-size: 1.2rem;
+  padding: 0.5rem 1.2rem;
+  background-color: var(--background);
+  color: #ffff;
+  border-radius: 0.7rem;
+}
+.botCabang a {
+  font-size: 1.5rem;
+  color: var(--background);
+  font-weight: 600;
+}
+/* kursus */
+.kursus {
+  padding: 9rem 0;
+}
+.kursus .text-kursus {
+  width: 26rem;
+  position: relative;
+  padding-top: 2.5rem;
+  margin-bottom: 2rem;
+}
+.kursus .text-kursus h2 {
+  font-size: 2.4rem;
+  font-weight: 600;
+}
+.kursus .text-kursus h2 span {
+  color: var(--background);
+}
+.kursus .text-kursus .line-top {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 3rem;
+}
+.kursus .text-kursus .line-bot {
+  position: absolute;
+  bottom: 1;
+  right: 1;
+  width: 8.5rem;
+}
+.owl-carousel {
+  padding: 2rem;
+}
+.card-kursus {
+  width: 100%;
+  padding: 1rem;
+  margin-right: 2rem;
+  background-color: #fff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+.card-kursus .body-card h3 {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+.card-kursus .body-card p {
+  text-align: justify;
+  font-size: 0.8rem;
+  color: #797c7a;
+  margin-bottom: 2rem;
+}
+.card-kursus .body-card a {
+  text-align: center;
+  text-decoration: none;
+  padding: 0.7rem 2rem;
+  background-color: var(--background);
+  color: #fff;
+  border-radius: 10px;
+}
+.card-kursus .btn-kursus {
+  background-color: var(--background);
+  color: #ffff;
+  padding: 0.8rem 2rem;
+  border-radius: 10px;
+  border-style: none;
+  font-size: 0.9rem;
+}
+.card-kursus img {
+  width: 20rem;
+  height: 10rem;
+  border-radius: 10px;
+}
+
+#kursus1 .modalkursus img,
+#kursus2 .modalkursus img,
+#kursus3 .modalkursus img,
+#kursus4 .modalkursus img,
+#kursus5 .modalkursus img,
+#kursus7 .modalkursus img,
+#kursus8 .modalkursus img,
+#kursus9 .modalkursus img {
+  width: 20rem;
+  height: 10rem;
+  border-radius: 10px;
+}
+#kursus1 .modalkursus .img-modal,
+#kursus2 .modalkursus .img-modal,
+#kursus3 .modalkursus .img-modal,
+#kursus4 .modalkursus .img-modal,
+#kursus5 .modalkursus .img-modal,
+#kursus6 .modalkursus .img-modal,
+#kursus7 .modalkursus .img-modal,
+#kursus8 .modalkursus .img-modal,
+#kursus9 .modalkursus .img-modal {
+  padding: 2rem 0;
+}
+#kursus1 .modalkursus .text-modal h3,
+#kursus2 .modalkursus .text-modal h3,
+#kursus3 .modalkursus .text-modal h3,
+#kursus4 .modalkursus .text-modal h3,
+#kursus5 .modalkursus .text-modal h3,
+#kursus6 .modalkursus .text-modal h3,
+#kursus7 .modalkursus .text-modal h3,
+#kursus8 .modalkursus .text-modal h3,
+#kursus9 .modalkursus .text-modal h3 {
+  font-size: 2rem;
+  line-height: 4rem;
+  font-weight: 600;
+}
+#kursus1 .modalkursus .text-modal p,
+#kursus2 .modalkursus .text-modal p,
+#kursus3 .modalkursus .text-modal p,
+#kursus4 .modalkursus .text-modal p,
+#kursus5 .modalkursus .text-modal p,
+#kursus6 .modalkursus .text-modal p,
+#kursus7 .modalkursus .text-modal p,
+#kursus8 .modalkursus .text-modal p,
+#kursus9 .modalkursus .text-modal p {
+  text-align: justify;
+}
+
+/* harga section */
+.harga {
+  padding: 7rem 0;
+}
+.harga .textHarga {
+  position: relative;
+}
+.harga .textHarga h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+.harga .textHarga h2 span {
+  color: var(--background);
+}
+.harga .textHarga .line-top {
+  width: 3rem;
+}
+.harga .textHarga .line-bot {
+  position: absolute;
+  bottom: 1;
+  right: 1;
+  width: 8.5rem;
+}
+.harga .textUp {
+  font-size: 1rem;
+  max-width: 800px;
+}
+.harga .cardHarga {
+  background: linear-gradient(179.98deg, #5f861a 0.02%, #001584 188.63%);
+  border: 4px solid #000000;
+  box-shadow: 0px 8px 26px rgba(85, 133, 0, 0.45);
+  border-radius: 30px;
+  padding: 2rem;
+  color: #fff;
+  margin: 3rem;
+}
+.harga .cardHarga h4 {
+  font-size: 2.3rem;
+  font-weight: 600;
+}
+.harga .cardHarga h4::after {
+  content: "";
+  padding-bottom: 1rem;
+  border-bottom: 0.5rem solid #d6d6d6;
+  display: block;
+}
+.harga .cardHarga .kotak {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #ffff;
+  margin: 2rem 0;
+}
+.harga .cardHarga a {
+  font-weight: 600;
+  text-decoration: none;
+  color: var(--background);
+  background-color: #f8ffeb;
+  padding: 0.6rem 3rem;
+}
+.harga .gambarBot {
+  width: 15rem;
+  z-index: -1;
+}
+/* testimoni section */
+.testimoni {
+  padding: 5rem 0;
+  background: url(../img/testimoni/background-testimoni.png);
+  background-position: center;
+  background-size: cover;
+}
+.testimoni .textTestimoni {
+  position: relative;
+}
+.testimoni .textTestimoni h2,
+.kontak .textKontak h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+.testimoni .textTestimoni span {
+  color: var(--background);
+}
+.testimoni .textTestimoni .line-top,
+.kontak .textKontak .line-top {
+  width: 3rem;
+}
+.testimoni .textTestimoni .line-bot,
+.kontak .textKontak .line-bot {
+  position: absolute;
+  bottom: 1;
+  right: 1;
+  width: 8.5rem;
+}
+.testimoni .textTestimoni p {
+  font-size: 2.2rem;
+  font-weight: 500;
+  color: #797c7a;
+  line-height: 5rem;
+}
+.testimoni .testimoniChild .child {
+  width: 15rem;
+  border-radius: 50%;
+  margin: 1rem;
+}
+.testimoni .testimoniChild {
+  background-color: #c1c1c17a;
+  border-radius: 0.5rem;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.testimoni .testimoniChild .testBody h3 {
+  font-size: 2.1rem;
+  font-weight: 500;
+}
+.testimoni .testimoniChild .testBody h5 {
+  color: #797c7a;
+  line-height: 2rem;
+  font-size: 1.2rem;
+}
+.testimoni .testimoniChild .testBody img {
+  width: 2.6rem;
+  margin: 2rem 0;
+}
+.testimoniChild p {
+  color: #424242;
+  font-size: 1.1rem;
+}
+.testimoniChild a {
+  color: #77b901;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+/* kontak section */
+.kontak {
+  padding: 5rem;
+}
+.kontak .textKontak p {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #797c7a;
+  padding-top: 2rem;
+}
+.kontak .backKontak {
+  background-color: #fff;
+  padding: 3rem;
+  border-radius: 0.5rem;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.kontak .backKontak .map {
+  border: 3px solid var(--background);
+  width: 100%;
+  height: 30rem;
+  border-radius: 0.5rem;
+}
+.kontak .backKontak .form-label.good {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+input:focus,
+textarea:focus {
+  outline: 0px !important;
+  -webkit-appearance: none;
+  box-shadow: none !important;
+}
+.kontak .backKontak input,
+.kontak .backKontak textarea {
+  border-style: none;
+  outline-color: var(--background);
+}
+.kontak .backKontak .form-control.nice {
+  background: rgba(119, 185, 1, 0.17);
+  border-radius: 10px;
+  height: 3.5rem;
+  padding: 1rem;
+}
+.kontak .backKontak .form-control.nicetwo {
+  background: rgba(119, 185, 1, 0.17);
+  border-radius: 10px;
+  padding: 1rem;
+  height: 10rem;
+}
+.btnKontak {
+  padding: 0.6rem 1.7rem;
+  background-color: var(--background);
+  color: #fff;
+  border-radius: 10px;
+}
+/* footer */
+footer h2 {
+  font-size: 2rem;
+  font-weight: 700;
+}
+footer h2 span {
+  color: var(--background);
+}
+.footer-nav {
+  padding-top: 2rem;
+}
+.footer-nav .footer-item.active {
+  border-style: none;
+}
+.footer-nav .footer-item {
+  list-style: none;
+  font-size: 1rem;
+  font-weight: 500;
+  border-left: 3px solid rgba(119, 185, 1, 0.53);
+  padding: 0 2rem;
+  line-height: 3rem;
+}
+.footer-nav .footer-item a {
+  text-decoration: none;
+  color: #000000;
+}
+footer .sosmed a {
+  font-size: 2.3rem;
+  color: #000000;
+}
+/* media queries */
+@media (max-width: 991.98px) {
+  html {
+    font-size: 72%;
+  }
+}
+@media (max-width: 767.98px) {
+  html {
+    font-size: 62%;
+  }
+  .hero .row {
+    justify-content: center;
+  }
+  .text-hero {
+    text-align: center;
+  }
+  .img-hero {
+    margin-top: 0.1rem;
+  }
+  .hero2 .row {
+    justify-content: center;
+  }
+  .visi {
+    background: url(../img/visi-misi/back.png);
+  }
+  .kontak .backKontak .mediumKontak {
+    margin-top: 2rem;
+  }
+  .kontak .backKontak .btnKontak {
+    width: 100%;
+  }
+}
+@media (max-width: 576px) {
+  .card-kursus {
+    height: auto;
+    margin-right: 1rem;
+  }
+  .card-kursus .img-kursus {
+    width: 100%;
+    height: 10rem;
+  }
+  .owl-carousel {
+    background-color: transparent;
+  }
+  .harga .textHarga {
+    width: 100%;
+  }
+  .harga .textHarga .line-top {
+    display: none;
+  }
+}

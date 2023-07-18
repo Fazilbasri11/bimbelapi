@@ -1,0 +1,122 @@
+:root {
+  --background: #77b901;
+  --secondary: #d9b600;
+}
+* {
+  font-family: "Poppins", sans-serif;
+}
+.back {
+  background-color: #f8ffeb;
+  background: url(../img/tentangKami/tentangKami2.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 5rem;
+}
+.navbar {
+  z-index: 9999;
+  background-color: bisque;
+}
+.navbar .navbar-brand {
+  font-family: "Peralta", cursive;
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  font-size: 1.2rem;
+}
+.navbar-brand span {
+  color: var(--background);
+  font-family: "Peralta", cursive;
+}
+.navbar-nav {
+  font-size: 1rem;
+  font-weight: 400;
+}
+.btn-navbar {
+  padding: 0.5rem 2rem;
+  font-size: 1rem;
+  color: var(--text);
+  background-color: var(--background);
+  border-style: none;
+  border-radius: 10px;
+  color: #fff;
+}
+.nav-link,
+.navbar-brand {
+  color: black;
+}
+/* kontak section */
+.kontak {
+  padding: 0 5rem;
+}
+.textKontak h2 {
+  font-size: 3rem;
+}
+.kontak .textKontak p {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #797c7a;
+}
+.kontak .backKontak {
+  background-color: #fff;
+  padding: 3rem;
+  border-radius: 0.5rem;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.kontak .backKontak .map {
+  border: 3px solid var(--background);
+  width: 100%;
+  height: 30rem;
+  border-radius: 0.5rem;
+}
+.kontak .backKontak .form-label.good {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+.sosmed a {
+  color: #000;
+  font-size: 3rem;
+  margin: 0 1rem;
+}
+input:focus,
+textarea:focus {
+  outline: 0px !important;
+  -webkit-appearance: none;
+  box-shadow: none !important;
+}
+.kontak .backKontak input,
+.kontak .backKontak textarea {
+  border-style: none;
+  outline-color: var(--background);
+}
+.kontak .backKontak .form-control.nice {
+  background: rgba(119, 185, 1, 0.17);
+  border-radius: 10px;
+  height: 3.5rem;
+  padding: 1rem;
+}
+.kontak .backKontak .form-control.nicetwo {
+  background: rgba(119, 185, 1, 0.17);
+  border-radius: 10px;
+  padding: 1rem;
+  height: 10rem;
+}
+.btnKontak {
+  padding: 0.6rem 1.7rem;
+  background-color: var(--background);
+  color: #fff;
+  border-radius: 10px;
+}
+/* media queries */
+@media (max-width: 991.98px) {
+  html {
+    font-size: 72%;
+  }
+}
+@media (max-width: 767.98px) {
+  html {
+    font-size: 62%;
+  }
+}
+@media (max-width: 576px) {
+}
